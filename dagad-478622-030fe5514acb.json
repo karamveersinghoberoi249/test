@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "dagad-478622",
+  "private_key_id": "030fe5514acb723219ee4fb059dc37f5151dbc87",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC5xAQNgMJ1zwvB\nzir40DMwb4N3unCh0AuvV5ByqESoJ7/jDUgi3yaKa4MvgrDNS2NtnIl+VkAXd8jl\nV3IuaN3T3C9u5CmLlWMua5dq+LemCXf56QwNsMA4Moj98TmfNxHEqy+gGyYH1lM/\nLpIo+18x/OUJQPyFSWnwt3itNLtFCrqT7ITtxyv5r0uUbQM1F8owYOMZjCspAm+V\nz4CjEgYhgyFxFqiD7yZFWF4NaoMRK2ChEs1sGTVGw1dosbyWM+AUnBkacrs+imG7\n7hESwV//+eI+eDperYbckOH39LXFTc73lLV87I0kdoZJJqjRNSE9Gp9zxTlwjIZA\nIj92c6kpAgMBAAECggEAIoezESd7/hYMY2wFRNa+jSRNVbYMNafMZD1slkN875zj\n6DqRzBmaumQdsHkkkCSRSNCuJhO2OiaD602D5eiMQ1NMZdp3doDAPOK29KVizbQ4\n3vVYzjqqoEeUe0+ZnGTKIrqHUcV6Hj7Sno3zkTaYjVwq3rt7tPLehGY2Qkvo+34f\n+Z4viZ5mMyYqaMtC/61sXQqPPeBJDyE9YHXKymAjxjIEAIwfKcE8Qb3LO3kG3tEa\nkPIXq+ZHVPUQLeaSB3KCNGNjGJ/W03iveyYk4P8qTCw54Pu4tKNswtgcsQ3+NAdQ\nowvyYp9+TGZCoAkO9YBnPylozkzKiQm3lEP75Jy+2QKBgQDbNohNxxydVG7UrYoi\nsa2RrcDFAi9qzer4mW+BMX6WUj6e9hoFFHVIxNDZMSu9Ne609oPLbXsratqKdlQ5\nwC8x2WWnsGlh92bJygIBUgEjX5veVLUQtkgTYGTZL/LMjCkE9f9XLGpu9xQi5c7x\nigbb14lyURxBi5/VQe9/PcFeowKBgQDY8JMNwaEavQhdXrftcEhi6HFgBqUFodzS\nyLJOigRzP74DE/h7zfMJBhjgquW/beCjuMArRHiQiWXQSfA8kBIC2/unrHcOevip\nY/9Pcfy7UQFMOFLIeoonviO45rdop8ZV3zD4+FVhIdCGeetCd5HdV251+meNpeAc\nlpA4dF1RwwKBgQCJB4qmy+uIMYpiaeSqkVTFds7El/waEIRsSEWahdzyjJDWf1J+\nkG5MQbOnwQPtb/Q6rMpv9I0E8/OOkC9QNmGKELJp423MroFTbHJabu+FNDPUBDF3\nM+rUKfKAjWeCE69kiX3G+V3C5bJxqiP1eumUrSQfELLQCj6saV4TtP/WbwKBgFuC\nl7V80TWTOb0RIGrjK1W1kWWdR+0pSxoLGNPyelAXOlLYEMBArt1GmiXjUQjAE7tc\nSou11Vm665zCI7mYWFCmdPBU2t/b1Zq2mNLtVVu6nt6E/76bmj2LgkwT3pgh9ZLx\nlBnhvzo65lhjg27FO11v7SONHjNtHi1RAcMequK7AoGBAKqOgHwsjMS95LDKb+z4\nhEnsfZ9eU/P1/d6JJNSMiwDD9IxDVOh5XkGKpJjzMpLvubKWXMnC9wsMNqApviYl\n8iyQozVFch8494H+CGkVG2yzBVQ9QwRzLC1kK+xA+zVHsLc52tM8dFbopfYqLlc9\nFssdf858Y/6xakV4IJB7/P2I\n-----END PRIVATE KEY-----\n",
+  "client_email": "streamlit-stock-service@dagad-478622.iam.gserviceaccount.com",
+  "client_id": "103446033211700230333",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/streamlit-stock-service%40dagad-478622.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
