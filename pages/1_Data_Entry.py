@@ -7,34 +7,38 @@ import re
 st.set_page_config(page_title="Stock Entry", page_icon="📝")
 
 # -----------------------------
-# Google Sheets Secure Connect
+#  Google Sheets Secure Connect
 # -----------------------------
 @st.cache_resource
 def connect_sheet():
     scopes = [
-    "https://www.googleapis.com/auth/spreadsheets",
-    "https://www.googleapis.com/auth/drive"
-]
-    creds = Credentials.from_service_account_file(
-        "dagad-478622-030fe5514acb.json",
-        scopes=scopes
-    )
+        "https://www.googleapis.com/auth/spreadsheets",
+        "https://www.googleapis.com/auth/drive"
+    ]
+
+    # Load service account from Streamlit Secrets
+    creds_dict = st.secrets["google_service_account"]
+    creds = Credentials.from_service_account_info(creds_dict, scopes=scopes)
+
     client = gspread.authorize(creds)
-    sheet = client.open("dagadget_stock_data").worksheet("stock_data")  
+    sheet = client.open("dagadget_stock_data").worksheet("stock_data")
     return sheet
+
 
 sheet = connect_sheet()
 
+
 # -----------------------------
-# Sanitize Inputs
+#  Sanitize Inputs
 # -----------------------------
 def clean(x: str):
     if not x:
         return ""
     return re.sub(r"[<>/{}$|]", "", x.strip())
 
+
 # -----------------------------
-# UI Form
+#  UI Form
 # -----------------------------
 st.title("📝 Stock Rate Entry")
 
@@ -62,7 +66,7 @@ if submitted:
         st.error("Price must be a numeric value.")
         st.stop()
 
-    # Clean
+    # Clean values
     vendor = clean(vendor)
     brand = clean(brand)
     model = clean(model)
@@ -81,3 +85,4 @@ if submitted:
         st.balloons()
     except Exception as e:
         st.error("❌ Failed to update Google Sheet. Contact admin.")
+        st.exception(e)
